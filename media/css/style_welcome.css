@@ -1,0 +1,311 @@
+body
+	{
+		background-color: #000000;
+		color: #ffffff;
+		margin: 0;
+		font-family: 'Caveat', cursive;
+	}
+
+@media (min-width: 1400px)
+{
+	
+#container
+	{
+		width: 100%;
+	}
+
+	#top
+	{
+		position: fixed;
+		top: 1%;
+		left: 26%;
+		z-index: 100;
+		font-size: 500%;
+		text-align: center;
+		font-family: 'Black Ops One', cursive;
+		letter-spacing: 3px;
+	}
+
+	#content
+	{
+		width: 100%;
+		margin: 0;
+	}
+
+	#background
+	{
+		position: fixed;
+		top: 12%;
+		left: 24%;
+	}
+	
+	#select
+	{
+		position: absolute;
+		top: 5%;
+		left: 30%;
+		color: #000000;
+		font-size: 250%;
+		font-weight: 700;
+	}
+
+	#pl
+	{
+		float: left;
+		margin-left: -4%;
+	}
+	
+	#en
+	{
+		float: left;
+		margin-left: 8%;
+	}
+	
+	#pl:hover
+	{
+		opacity: 0.9;
+	}
+	
+	#en:hover
+	{
+		opacity: 0.8;
+	}
+}
+
+@media (min-width: 1000px) and (max-width: 1399px)
+{
+	#container
+	{
+		width: 100%;
+	}
+
+	#top
+	{
+		position: fixed;
+		top: 1%;
+		left: 19%;
+		z-index: 100;
+		font-size: 400%;
+		text-align: center;
+		font-family: 'Black Ops One', cursive;
+		letter-spacing: 3px;
+	}
+
+	#content
+	{
+		width: 100%;
+		margin: 0;
+	}
+
+	#background
+	{
+		position: fixed;
+		top: 10%;
+		left: 12%;
+	}
+	
+	#select
+	{
+		position: absolute;
+		top: 6%;
+		left: 30%;
+		color: #000000;
+		font-size: 250%;
+		font-weight: 700;
+	}
+
+	#pl
+	{
+		float: left;
+		margin-left: -4%;
+	}
+	
+	#en
+	{
+		float: left;
+		margin-left: 8%;
+	}
+	
+	#pl:hover
+	{
+		opacity: 0.9;
+	}
+	
+	#en:hover
+	{
+		opacity: 0.8;
+	}
+}
+
+@media (min-width: 700px) and (max-width: 999px)
+{
+	#container
+	{
+		width: 100%;
+	}
+
+	#top
+	{
+		position: fixed;
+		top: 2%;
+		left: 20%;
+		z-index: 100;
+		font-size: 300%;
+		text-align: center;
+		font-family: 'Black Ops One', cursive;
+		letter-spacing: 3px;
+	}
+
+	#content
+	{
+		width: 100%;
+		margin: 0;
+	}
+
+	#background
+	{
+		position: fixed;
+		top: 10%;
+		left: 12%
+	}
+	
+	#background > img
+	{
+		width: 80%;
+		height: 80%;		
+	}
+	
+	#select
+	{
+		position: absolute;
+		top: 8%;
+		left: 29%;
+		color: #000000;
+		font-size: 150%;
+		font-weight: 700;
+	}
+
+	#pl
+	{
+		float: left;
+		width: 40%;
+		height: 40%;
+		margin-left: -4%;
+	}
+	
+	#pl > img
+	{
+		width: 100%;
+		height: 100%;
+	}
+	
+	#en
+	{
+		float: left;
+		width: 40%;
+		height: 40%;
+		margin-left: 8%;
+	}
+	
+	#en > img
+	{
+		width: 100%;
+		height: 100%;
+	}
+	
+	#pl:hover
+	{
+		opacity: 0.9;
+	}
+	
+	#en:hover
+	{
+		opacity: 0.8;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 699px)
+{
+	#container
+	{
+		width: 100%;
+	}
+
+	#top
+	{
+		position: fixed;
+		left: 25%;
+		z-index: 100;
+		font-size: 175%;
+		text-align: center;
+		font-family: 'Black Ops One', cursive;
+		letter-spacing: 3px;
+	}
+
+	#content
+	{
+		width: 100%;
+		margin: 0;
+	}
+
+	#background
+	{
+		position: fixed;
+		top: 7%;
+		left: 20%
+	}
+	
+	#background > img
+	{
+		width: 80%;
+		height: 80%;		
+	}
+	
+	#select
+	{
+		position: absolute;
+		top: 4%;
+		left: 25%;
+		color: #000000;
+		font-size: 90%;
+		font-weight: 700;
+	}
+
+	#pl
+	{
+		float: left;
+		width: 70%;
+		height: 70%;
+		margin-left: 5%;
+	}
+	
+	#pl > img
+	{
+		width: 100%;
+		height: 100%;
+	}
+	
+	#en
+	{
+		float: left;
+		width: 70%;
+		height: 70%;
+		margin-left: 5%;
+	}
+	
+	#en > img
+	{
+		width: 100%;
+		height: 100%;
+	}
+	
+	#pl:hover
+	{
+		opacity: 0.9;
+	}
+	
+	#en:hover
+	{
+		opacity: 0.8;
+	}	
+}

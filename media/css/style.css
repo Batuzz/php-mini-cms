@@ -1,0 +1,398 @@
+body
+{
+    background-color: #1C271C ;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/pattern.png);
+    font-family: 'Arial Black'
+}
+
+span
+{
+    margin-left:2em;
+}
+
+header
+{
+    background-color: #A59057;
+    color: #EEDCAD;
+    border-bottom: 1px solid #000;
+    font-size: 36px;
+    text-align: center;
+    padding: 0;
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1 
+{
+    margin: 10px 0px 0px 0px;
+}
+
+h6
+{
+    font-size: 8px;
+}
+
+.topbar
+{
+    background-color: #000000;	
+    border-bottom: 2px solid #EEDCAD;
+    width: 100%;
+    min-height: 83px;
+    margin-bottom: 3%;
+}	
+
+#logo
+{
+    float:left;
+    position: relative;
+    margin: 20px 15%;
+    margin-right: 5%;
+}
+
+#logo > a
+{
+    color: #ffffff;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: 'Black Ops One', cursive;
+
+}
+
+nav
+{
+    width: auto;
+    position: relative;
+}
+
+section
+{
+    border-radius: 50px 25px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+article
+{
+    background-color: #EEDCAD;
+    color: #A59057;
+    text-align: justify;
+    font-size: 20px;
+    padding: 15px 25px 5px 25px;
+    border-radius: 0 0 20px 20px;
+    font-family: 'Arial';
+    margin-bottom: 30px;
+}
+
+footer
+{
+    background-image: url(../images/pattern.png);
+    color: #EEDCAD;
+    font-size: 18px;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: none;
+    padding-top: 1%;
+}
+
+.sticky
+{
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+ol
+{
+    display: inline-flex;
+    font-size: 20px;
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+ol a										/* poz 1/4/5/6, 2/3 tylko hiper*/
+{
+    color: #EEDCAD;
+    text-decoration: none;
+}
+
+ol > a > li									/* poz 1/4/5/6 lepi sie do poz 2/3*/
+{
+    min-width: auto;
+    margin-top: 22px;
+    margin-left: 10px;
+}
+
+
+a.drop 
+{
+    color: #EEDCAD;
+}
+
+ol > li
+{
+    color: #A59057;
+    height: 25px;
+    margin-top: 22px;
+    margin-left: 10px;
+    min-width: auto;	
+}
+
+ol > li:hover
+{
+    color: #FFF;
+    cursor: pointer;
+}
+
+ol > li > ul
+{
+    display: none;
+    position: absolute;
+    right: auto;
+    left: 47%;
+    top: auto;
+    font-size: 16px;
+    line-height: 26px;
+    list-style-type: none;
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+ol > li > ul > li
+{
+    padding: 2px 10px 2px 10px;
+}
+
+ol > li:hover > ul
+{
+    display: inline-flex;
+}
+
+
+ol > li > ul > li:hover
+{
+    background-color: #A59057;
+    border-radius: 4px;
+}
+
+ol > li > ul > li:first-child
+{
+    margin: 0;
+}
+
+input, select, textarea
+{
+  border: solid 1px #A59057;
+  background-color: #EEDCAD;
+  height: 20px;
+  color: #A59057;
+  padding: 0px 2px 0px 2px;
+}
+textarea
+{
+    min-height: 150px;
+    max-height: 400px;
+    min-width: 100px;
+    max-width: 900px;
+}
+
+label 
+{
+   margin-top: 10px;
+   display: block;
+   min-width: 100px;
+   font-weight: bold;
+}
+
+input[type="text"].focus
+{
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+input[type=submit]
+{
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    transition-duration: 0.4s;
+    height: 35px;
+    width: 200px;
+    background-color: #A59057;
+    color: #EEDCAD;
+    margin-bottom: 30px;
+}
+
+input[type=submit]:hover
+{
+    background-color: #A59057;
+    color: white;
+}
+
+.admin
+{
+    text-align: center;
+    position: fixed;
+    top: 143px;
+    left: 9px;
+    width: 170px;
+    background-color: #EEDCAD;
+    border-radius: 10px;
+}
+
+.admin th
+{
+    color: #EEDCAD;
+    background-color: #A59057;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 1px solid black;
+}
+
+.admin a 
+{
+    text-decoration: none;
+    color: #A59057;
+}
+
+.delImg
+{
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/delete.png);
+    background-size: 20px;
+    margin-left: 15px;
+}
+
+.editImg
+{
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/edit.png);
+    background-size: 20px;
+    margin-left: 23px;
+}
+
+table.optTable 
+{
+    color: #A59057;
+    background-color: #EEDCAD;
+    border-collapse: collapse;
+    border-color: #A59057;
+    text-align: center;
+}
+
+table.optTable th
+{
+    color: #EEDCAD;
+    background-color: #A59057;
+}
+
+#quizWrapper
+{
+    height: 300px;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quiz1
+{
+    height: 300px;
+    width: 600px;
+    float: left;
+    margin-right: 50px; 
+    margin-left: auto;
+}
+
+.quiz2
+{
+    height: 300px;
+    width: 600px;
+    float: left;
+    margin-left: 50px;
+    margin-right: auto;
+}
+
+.quizImg
+{
+    height: 300px;
+    width: 600px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+15% { left: 0%; }
+20% { left: -100%; }
+40% { left: -100%; }
+45% { left: -200%; }
+65% { left: -200%; }
+70% { left: -300%; }
+90% { left: -300%; }
+95% { left: -400%; }
+100% { left: 0% }
+}
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slidy infinite; 
+}
+
+.pageDiv
+{
+    width: 400px;
+    height: 200px;
+    margin: 20px 50px 20px 20px;
+    float: left;
+}
+
+.pageImg
+{
+    width: 400px;
+    height: 200px;
+}
+
+.langPl
+{
+    float: right;
+    width: 45px;
+    height: 20px;
+    background-image: url(../images/pl.png);
+    background-size: 45px;
+    margin-right: 15px;
+}
+
+.langEn
+{
+    float: right;
+    width: 45px;
+    height: 20px;
+    background-image: url(../images/en.png);
+    background-size: 45px;
+    margin-right: 15px;
+}
+
+chart
+{
+    margin-left: auto;
+    margin-right: auto;
+}
